@@ -11,6 +11,8 @@ from nltk.tokenize import word_tokenize
 from gensim.models import KeyedVectors
 
 nltk.download('stopwords')
+nltk.download('punkt_tab')
+nltk.download('punkt')
 
 # Streamlit Page Config
 st.set_page_config(page_title="🧠 Dementia Detection Inference", layout="centered")
