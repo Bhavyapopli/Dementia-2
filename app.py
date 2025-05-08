@@ -10,6 +10,8 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from gensim.models import KeyedVectors
 
+nltk.download('stopwords')
+
 # Streamlit Page Config
 st.set_page_config(page_title="🧠 Dementia Detection Inference", layout="centered")
 st.title("🧠 Dementia Detection - Inference App")
