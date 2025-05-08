@@ -1,0 +1,1 @@
+glove.6B.100d.word2vec.txt filter=lfs diff=lfs merge=lfs -text
